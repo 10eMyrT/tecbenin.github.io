@@ -1,0 +1,27 @@
+
+title: Titigweti English Club
+title-abbrev: TEC
+email: kevinassogba@gmail.com
+description: >-
+  Titigweti English Club (TEC) is the oldest English in the Republic of Benin.
+  Located at the University of Abomey-Calavi, TEC counts a large number of
+  active members, and proud community of Alum.
+  Our motto is LEARNING - PRACTICE - PERFECTION, and we are proud to keep the fire burning!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: titigwetic
+github_username:  tecbenin
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt

@@ -1,0 +1,163 @@
+/* General setup for all pages */
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* Defines the main class and adds space
+between the body and the header and the footer */
+main {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+/* Used for the galleries */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+.carousel-item {
+  height: 60vh;
+  min-height: 350px;
+}
+#carouselIndicators {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* Sets up the height and weight of profile image and sub-menu identifiers.
+Also sets the background of cards */
+.card-img-top {
+    height: 50%;
+    width: 50%
+}
+.card {
+    background-color: transparent;
+}
+/* Setup for the header menu (space and hover color) */
+.header {
+    background: #800000;
+    text-align: center;
+}
+.header-menu {
+    display: inline-block;
+}
+.header-menu ul {
+    display: inline-flex; /**/
+    list-style: none;
+}
+.header-menu ul li {
+    width: 130px;
+    margin: 20px;
+    position: relative;
+}
+.header-menu ul li a {
+    color: white;
+    outline: 0;
+}
+.active, .header-menu ul li:hover {
+    background: #092c41;
+    padding: 0px;
+}
+
+/* Hides the sub menu to only display it on hover */
+.sub-menu {
+    display: none;
+}
+.header-menu ul li:hover .sub-menu {
+    display: block;
+    margin-left: -15px;
+}
+.header-menu ul li:hover .sub-menu ul {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    background: #800000;
+    padding: 8px;
+}
+
+/* sticky footer */
+html, body {
+    height: 100%;
+}
+body {
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+}
+
+/* footer tweaks for better style */
+footer {
+    color: white;
+    background: #000000;
+    padding-top: 1.2em;
+}
+footer ul {
+    padding-left: 0;
+    /* columns: 2; */
+}
+footer li {
+    list-style: none;
+}
+footer a {
+    color: #27546f;
+}
+footer a:hover {
+    color: #27546f;
+    text-decoration: none;
+}
+footer a.outside_links:hover {
+    color: #71b4dd;
+    text-decoration: none;
+}
+
+/* Define the features of the menu bars */
+.menu-toggle {
+    color: #ffffff;
+    float: right;
+    line-height: 100px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+/*  Responsive design */
+@media screen and (max-width: 1185px) {
+    .header {
+        text-align: inherit;
+        padding: 0 20px;
+    }
+    #identifier {
+        float: left;
+    }
+    .menu-toggle {
+        float: right;
+        display: block;
+    }
+    .header-menu {
+        position: absolute;
+        top: 155px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    .header-menu ul {
+        display: block;
+    }
+    .sideMenu {
+        width: 20vh;
+        height: 65vh;
+        background: #800000;
+        left: 0;
+        transition: 0.5s;
+        z-index: 10;
+    }
+}

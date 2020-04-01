@@ -1,0 +1,43 @@
+- name: ABDOUL-KARIM Hanane Titilayo
+  role: President
+  picture: assets/eboard/pr.jpg
+
+
+- name: SOGADJI David
+  role: Vice-President
+  picture: assets/eboard/vp.jpg
+
+
+- name: HOUNGBO Anicette
+  role: General Secretary
+  picture: assets/eboard/gsec.jpg
+
+
+- name: ADAMOU Maimouna
+  role: Vice-Secretary
+  picture: assets/eboard/vsec.jpg
+
+
+- name: ANOUMOU Romuald
+  role: General Treasurer
+  picture: assets/eboard/gtreas.jpg
+
+
+- name: AKPACHO Ahouéfa Espoir Immaculée
+  role: Vice-Treasurer
+  picture: assets/eboard/vtreas.jpg
+
+
+- name: DAHOU Maurice
+  role: Executive Director
+  picture: assets/eboard/ed.jpg
+
+
+- name: OUSSOUKPERVI Sidikou
+  role: General Coordinator
+  picture: assets/eboard/gcoord.jpg
+
+
+- name: GANDJI M. Richard
+  role: Vice- Coordinator
+  picture: assets/eboard/vcoord.jpg

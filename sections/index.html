@@ -1,0 +1,38 @@
+---
+layout: page
+title: Sections
+permalink: /sections/
+---
+<div class="container">
+    <div class="card text-center bg-transparent" style="border: none">
+        <div class="card-body">
+            <h3 class="card-title mb-5 text-center">Different Sections of Titigweti English Club</h3>
+            <div class="lead col-lg-10 text-justify mx-auto">
+                In Titigweti English Club, we welcome students every academic background to join any of our activities, and become member of our six (6) sections.
+            </div>
+            <div class="container mt-5">
+                <div class="row justify-content-center bg-transparent">
+                    {% for post in site.categories.sections %}
+                        {% assign section = post.title | split: ' ' | first %}
+                        {% assign sectionName = section | downcase %}
+                        {% assign id = "assets/" | append: sectionName %}
+                        {% assign identifier = id | append: "/id.jpg" %}
+                        <div class="col-xl-4 col-md-6 col-12 mb-5">
+                            <div class="card h-100 bg-transparent" id="column" style="border: none">
+                                <img class="card-img-top" src="{{ identifier }}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ post.title }}</h5>
+                                    <p class="card-text">{{ post.excerpt }}</p>
+                                    <a class="btn btn-block" href="{{ post.url }}" style="background: #800000; color: white">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="lead col-lg-10 text-justify mx-auto">
+                All the six (06) sections work on grammatical rules, phonetic rules, common mistakes etc. that the heads of sections have to prepare as lessons and share (not to say teach) with the members. And when a new member comes he/she is asked to choose the section he/she is interested in, because when you love something, doing it will be easier for you; and then it will be very easy to learn English through that hobby. All the sections generally work with their respective members on Mondays and Thursdays from 3p.m. to 6p.m. Finally, all the sections of the Club gather on Tuesdays from 3pm to 6pm for the General Meeting. During that meeting, every section gets the chance to perform what they have been doing over a week’s time and that allows them to learn how to be self-confident before a crowd.
+            </div>
+        </div>
+    </div>
+</div>

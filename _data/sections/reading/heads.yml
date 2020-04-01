@@ -1,0 +1,14 @@
+################## Reading section ###############
+- title: Reading section
+- members:
+    - name: ABDOULAYE Sadissou
+      role: Head of Reading section
+      picture: assets/heads/hread.jpg
+
+    - name: HESSOU Carmelle
+      role: 1st Vice-Head of Reading section
+      picture: assets/heads/vh1read.jpg
+
+    - name: AKENAM S. Roubabatou
+      role: 2nd Vice-Head of Reading section
+      picture: assets/heads/vh2read.jpg

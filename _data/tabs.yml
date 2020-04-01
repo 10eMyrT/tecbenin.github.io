@@ -1,0 +1,42 @@
+- name: Home
+  link: /
+
+- name: About
+  link: /about/
+
+- name: Sections
+  link: /sections/
+  sub-menu:
+      - name: Debate and Discussion Section
+        link: /sections/debate
+      - name: Drama Section
+        link: /sections/drama
+      - name: Listening Section
+        link: /sections/listening
+      - name: News Section
+        link: /sections/news
+      - name: Reading Section
+        link: /sections/reading
+      - name: Stories and Jokes Section
+        link: /sections/stories
+
+- name: Events
+  link: /events/
+  sub-menu:
+      - name: English Speakers Day
+        link: /events/esd
+      - name: Lol Night
+        link: /events/lolnight
+      - name: Best Lady Competition
+        link: /events/blc
+      - name: Big Bear Competition
+        link: /events/bbc
+
+- name: Projects
+  link: /projects/
+
+- name: People
+  link: /people/
+
+- name: Connect
+  link: /connect/

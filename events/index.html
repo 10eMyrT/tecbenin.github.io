@@ -1,0 +1,38 @@
+---
+layout: page
+title: Events
+permalink: /events/
+images:
+- assets/soft-skill.jpg
+- assets/lolnight-1.jpg
+- assets/lolnight-2.jpg
+- assets/esd2017-1.jpg
+---
+
+{% include gallery.html %}
+
+<div class="container">
+    <div class="card text-center bg-transparent" style="border: none">
+        <div class="card-body">
+            <h3 class="card-title mb-5 text-center">Events and competitions</h3>
+            <div class="lead col-lg-10 text-justify mx-auto">
+                In addition to weekly club meetings, Titigweti English Club organizes yearly events and competitions to bring members together and create a friendly environment where beauty and knowledge are celebrated. Read more about any of the events on their respective pages, and contact us if you require more information.
+            </div>
+            <div class="container mt-5">
+                <div class="row justify-content-center bg-transparent">
+                    {% for post in site.categories.events %}
+                        <div class="col-md-6 col-lg-6 col-12 mb-5">
+                            <div class="card h-100 bg-transparent" id="column" style="border: none">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">{{ post.title }}</h4>
+                                    <p class="card-text">{{ post.excerpt }}</p>
+                                    <a class="btn btn-block" href="{{ post.url }}" style="background: #800000; color: white">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

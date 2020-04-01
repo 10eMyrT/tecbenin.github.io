@@ -1,0 +1,14 @@
+################## News section ###############
+- title: News section
+- members:
+    - name: OGOUNLOYE A. N. Mojeice
+      role: Head of News section
+      picture: assets/heads/hnews.jpg
+
+    - name: VITOULEY Marcel
+      role: 1st Vice-Head of News section
+      picture: assets/heads/vh1news.jpg
+
+    - name: SENOU Donatien
+      role: 2nd Vice-Head of News section
+      picture: assets/heads/vh2news.jpg

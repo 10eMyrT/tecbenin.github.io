@@ -1,0 +1,14 @@
+################# Drama section ######################
+- title: Drama section
+- members:
+    - name: BOKO Antoine Napoléon
+      role: Head of Drama section
+      picture: assets/heads/hdrama.jpg
+
+    - name: GBEHI Lyres
+      role: 1st Vice-Head of Drama section
+      picture: assets/heads/vh1drama.jpg
+
+    - name: SEGLA Expédit
+      role: 2nd Vice-Head of Drama section
+      picture: assets/heads/vh2drama.jpg
