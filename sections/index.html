@@ -11,7 +11,7 @@ permalink: /sections/
                 In Titigweti English Club, we welcome students every academic background to join any of our activities, and become member of our six (6) sections.
             </div>
             <div class="container mt-5">
-                <div class="row justify-content-center bg-transparent">
+                <div class="row justify-content-center bg-transparent mt-5">
                     {% for post in site.categories.sections %}
                         {% assign section = post.title | split: ' ' | first %}
                         {% assign sectionName = section | downcase %}
