@@ -1,6 +1,6 @@
 {% if page.images %}
-<div class="container row mt-5 mb-5" style="margin-bottom:1.2em;">
-    <div id="carouselIndicators" class="col-12 carousel slide" data-ride="carousel">
+<div class="container row mt-5 mb-5" style="margin-bottom:1.2em; margin: auto;">
+    <div id="carouselIndicators" class="col-12 carousel slide" data-ride="carousel" >
         {% if page.images.size > 1 %}
         <ol class="carousel-indicators">
             {% assign slideNum = 0 %}
@@ -13,18 +13,16 @@
             {% endfor %}
         </ol>
         {% endif %}
-        <div class="container">
-            <div class="carousel-inner">
-                {% for image in page.images %}
-                    {% if image == page.images.first %}
-                    <div class="carousel-item active">
-                    {% else %}
-                    <div class="carousel-item">
-                    {% endif %}
-                        <img class="d-block" src="{{ image }}" style="width:100%;"/>
-                    </div>
-                {% endfor %}
-            </div>
+        <div class="carousel-inner">
+            {% for image in page.images %}
+                {% if image == page.images.first %}
+                <div class="carousel-item active">
+                {% else %}
+                <div class="carousel-item">
+                {% endif %}
+                    <img class="d-block w-100 img-fluid" src="{{ image }}"/>
+                </div>
+            {% endfor %}
         </div>
         {% if page.images.size > 1 %}
         <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
