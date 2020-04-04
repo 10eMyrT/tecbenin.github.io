@@ -13,10 +13,6 @@ main {
 }
 
 /* Used for the galleries */
-/* .carousel-inner img {
-    width: 100%;
-}
-*/
 .carousel-item {
   height: 95vh;
   width:100%;
@@ -170,12 +166,4 @@ footer a.outside_links:hover {
       height: auto;
       width:100%;
     }
-    /* .carousel-inner img {
-        width: 100%;
-    }
-    .carousel-inner{
-      width:100%;
-      height: 95vh;
-      max-height: 200px !important;
-    } */
 }
