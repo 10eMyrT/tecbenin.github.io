@@ -6,7 +6,7 @@ permalink: /sections/
 <div class="container">
     <div class="card text-center bg-transparent" style="border: none">
         <div class="card-body">
-            <h3 class="card-title mb-5 text-center">Different Sections of Titigweti English Club</h3>
+            <h3 class="card-title mb-4 text-center">Different Sections of Titigweti English Club</h3>
             <div class="lead col-lg-10 text-justify mx-auto">
                 In Titigweti English Club, we welcome students every academic background to join any of our activities, and become member of our six (6) sections.
             </div>
@@ -19,8 +19,8 @@ permalink: /sections/
                         {% assign identifier = id | append: "/id.jpg" %}
                         <div class="col-xl-4 col-md-6 col-12 px-2 py-2">
                             <div class="card h-100 bg-transparent" id="column" style="border: none">
-                                <img class="card-img-top" src="{{ identifier }}" alt="Card image cap">
-                                <div class="card-body">
+                                <img class="card-img-top w-50 mx-auto" src="{{ identifier }}" alt="Card image cap">
+                                <div class="card-body text-center">
                                     <h5 class="card-title">{{ post.title }}</h5>
                                     <p class="card-text">{{ post.excerpt }}</p>
                                     <a class="btn btn-block" href="{{ post.url }}" style="background: #800000; color: white">Learn More</a>
