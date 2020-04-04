@@ -9,8 +9,8 @@ permalink: /connect/
 Join Titigweti English Club for our weekly meeting on the Abomey-Calavi Campus of the University of Abomey-Calavi.
 
 <ul style="padding-left: 50px; list-style: none">
-    <li>Day:</li>
-    <li>Time:</li>
+    <li>Day: Tuesdays</li>
+    <li>Time: 3 p.m. to 6 p.m.</li>
     <li>Location: </li>
 </ul>
 
