@@ -62,7 +62,6 @@ Also sets the background of cards */
 }
 .header-menu ul li:hover .sub-menu {
     display: block;
-    margin-left: -20px;
 }
 .header-menu ul li:hover .sub-menu ul {
     display: block;
