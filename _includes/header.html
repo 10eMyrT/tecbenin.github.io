@@ -19,8 +19,9 @@
                         <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </a>
                         <div class="sub-menu">
-                            <ul>
+                            <ul style="text-align: left">
                                 {% for sub in tab.sub-menu %}
+                                    <!-- <hr> -->
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ sub.link }}">{{ sub.name }}</a>
                                     </li>

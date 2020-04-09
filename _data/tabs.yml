@@ -3,6 +3,13 @@
 
 - name: About
   link: /about/
+  sub-menu:
+      - name: History
+        link: /about/history
+      - name: Bylaws
+        link: /about/bylaws
+      - name: Status
+        link: /about/status
 
 - name: Sections
   link: /sections/
